@@ -64,7 +64,7 @@
    > 遵循 Model-View-Controller 架构，结构清晰，易于扩展和维护
 
 ## 📁 项目结构
-
+```
 ├── 1st-NON/
 │   ├── main.py
 │   └── uploads/
@@ -80,7 +80,7 @@
 │   └── uploads/
 ├── README.md
 └── README\_zh.md
-
+ ```
 
 
 ## ⚙️ 配置说明
