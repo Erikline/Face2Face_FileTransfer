@@ -65,9 +65,6 @@
 
 ## 📁 项目结构
 
-````
-
-.
 ├── 1st-NON/
 │   ├── main.py
 │   └── uploads/
@@ -84,7 +81,6 @@
 ├── README.md
 └── README\_zh.md
 
-````
 
 
 ## ⚙️ 配置说明
