@@ -1,33 +1,33 @@
-# 📁 Local File Sharing App
+# 📁 Local File Sharing Application
 
-This is a simple Python application that uses Tkinter to build a GUI and `http.server` as a web server.  
-It allows you to easily share local files over the same local network (WiFi or Ethernet) via a web browser.
+This is a simple Python application built with Tkinter for the GUI and uses `http.server` as the web server.  
+It allows you to easily share local files over the same LAN (WiFi or Ethernet) through a web browser.
 
 ---
 
 ## ✨ Features
 
-- 🖼️ **GUI Interface:** A clean and intuitive Tkinter window to start/stop the server
-- 📤 **File Sharing:** Share files selected through the GUI
-- 🌐 **Web Upload:** Upload files directly to the server from the browser
-- 📥 **Web Download:** Access and download shared files via the browser
-- ❌ **Web Delete:** Easily delete shared files from the browser interface
-- 🔍 **Auto IP Detection:** Automatically detects and displays your local IP address
-- 🎨 **Modern Style:** Basic modern web UI for user-friendly interaction
+- 🖼️ **GUI Interface:** Simple and intuitive Tkinter window to easily start/stop the server  
+- 📤 **File Sharing:** Share files you select through the GUI  
+- 🌐 **Web Upload:** Upload files directly to the server from the browser  
+- 📥 **Web Download:** Access and download shared files via the browser  
+- ❌ **Web Delete:** One-click file deletion from the browser  
+- 🔍 **Auto IP Detection:** Automatically displays your local network access address  
+- 🎨 **Modern Style:** Clean and beautiful web frontend interface
 
 ---
 
 ## 🧰 Requirements
 
-- 🐍 Python 3.6 or higher
-- 🧱 Tkinter (usually bundled with Python)
+- 🐍 Python 3.6 or higher  
+- 🧱 Tkinter (comes pre-installed with Python)
 
 ---
 
-## 🚀 Installation
+## 🚀 Installation Steps
 
-1. 📥 Clone or download this repository
-2. 📂 Open your terminal and navigate to the project directory:
+1. 📥 Clone or download this repository  
+2. 📂 Open a terminal and navigate to the project directory:
 
     ```bash
     cd /path/to/your/project
@@ -41,36 +41,35 @@ It allows you to easily share local files over the same local network (WiFi or E
 
 ---
 
-## 🧑‍💻 How to Use
+## 🧑‍💻 Usage
 
 1. Run `main.py` to start the application  
-2. A Tkinter GUI window will appear  
-3. Click **"Choose File"** to select files you want to share  
-4. Click **"Start Sharing"** to launch the HTTP server  
-5. The application will display your access URL (e.g., `http://192.168.1.100:8000`)  
-6. On any device connected to the same local network, open a web browser and enter the displayed address  
-7. 🌐 View the shared file list, download files, or upload/delete using the buttons provided  
-8. Click **"Stop Sharing"** in the GUI to shut down the server
+2. A Tkinter GUI window will pop up  
+3. Click **“Select File”** to add files you want to share  
+4. Click **“Start Sharing”** to launch the HTTP server  
+5. The program will display the access URL (e.g. `http://192.168.1.100:8000`)  
+6. Enter this address in any device browser on the same LAN  
+7. 🌐 Browse shared files, click to download, or use buttons to upload/delete files  
+8. Click **“Stop Sharing”** to shut down the server
 
 ---
 
 ## 🗃️ Project Versions
 
-This project includes two main versions:
+There are two main versions of this project:
 
-1. 🧾 **Non-MVC Version (`1st-NON/`)**  
-   > A simple implementation with all logic in a single script for easy understanding and quick usage
+1. 🧾 **Non-MVC version (`1st-NON/`)**  
+   > All logic is in a single script for easy understanding and quick start
 
-2. 🧱 **MVC Version (`2th-MVC/`)**  
-   > A structured implementation using the Model-View-Controller pattern, making the code more organized and maintainable
+2. 🧱 **MVC version (`2th-MVC/`)**  
+   > Follows the Model-View-Controller architecture for clear structure and easier maintenance
 
 ---
 
 ## 📁 Project Structure
 
 ````
-
-.
+root
 ├── 1st-NON/
 │   ├── main.py
 │   └── uploads/
@@ -93,8 +92,8 @@ This project includes two main versions:
 
 ## ⚙️ Configuration
 
-- 📂 The default upload directory is `uploads/`  
-- You can change it in `config.py`:
+- 📂 The upload directory is set to `uploads/` by default  
+- To modify, edit `config.py`:
 
     ```python
     UPLOAD_FOLDER = "uploads"
@@ -102,11 +101,10 @@ This project includes two main versions:
 
 ---
 
-## 🙌 Contributing
+## 🙌 Contribution
 
-Contributions are welcome! 🙌  
-Feel free to fork this repository and submit pull requests.  
-Suggestions and bug reports are also appreciated via Issues 🐛
+Feel free to 🙌 fork this project and submit pull requests  
+Issues and suggestions are also welcome 🐛
 
 ---
 
@@ -119,14 +117,50 @@ See the `LICENSE` file in the root directory for details.
 
 ## 🖼️ Screenshots
 
-> Below are sample screenshots showing the local file sharing app interface and web management UI:
+> Below are screenshots of the local file sharing app’s GUI and web file management interfaces:
 
-### 🎛️ GUI (Tkinter)
+### 🎛️ GUI Interface (Tkinter)
 
-![GUI Screenshot](./assets/gui_example.png)
+![GUI screenshot](./assets/gui_example.png)
+
+---
 
 ### 🌐 Web Interface (File List + Upload/Delete)
 
-![Web UI Screenshot](./assets/web_example.png)
+![Web screenshot](./assets/web_example.png)
+
+---
+
+### 📸 System Interface Display
+
+#### 🖥️ User One Upload Interface (Local GUI)
+
+> User one selects files via the local graphical interface and starts the sharing service.
+
+![User One Upload](./assets/用户一上传.png)
+
+---
+
+#### 🌐 User Two Browses File List (Browser)
+
+> User two visits the sharing link via browser and views the available files.
+
+![User Two List](./assets/用户二显示.png)
+
+---
+
+#### 📥 User Two Downloading File
+
+> User two clicks a file to download, triggering the browser’s download prompt.
+
+![User Two Downloading](./assets/用户二下载.png)
+
+---
+
+#### ✅ User Two Download Successful
+
+> The file is successfully saved to user two’s local device.
+
+![User Two Download Success](./assets/用户二下载成功.png)
 
 ---
