@@ -49,8 +49,8 @@ This project includes two main versions:
 
 
 ## 📁 Project Structure
-
-.
+ ```
+root
 ├── 1st-NON/
 │   ├── main.py
 │   └── uploads/
@@ -65,7 +65,8 @@ This project includes two main versions:
 │   ├── styles.py
 │   └── uploads/
 ├── README.md
-└── README\_zh.md
+└── README\_en.md
+ ```
 
 ## 🤝 Contributing
 
@@ -76,5 +77,5 @@ Found a bug or have suggestions? Open an **issue** and let's make this better to
 ## 📄 License
 
 This project is licensed under the **MIT License**.  
-See the `LICENSE` file for full details. *(Note: Please add the LICENSE file if not already included)*
+See the `LICENSE` file for full details.
 
