@@ -79,7 +79,7 @@
 │   ├── styles.py
 │   └── uploads/
 ├── README.md
-└── README\_zh.md
+└── README\_en.md
  ```
 
 
