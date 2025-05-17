@@ -1,82 +1,80 @@
-```
-# Local File Sharing App
+# 📂 Local File Sharing App
 
-This is a simple local file sharing application built with Python and Tkinter. It allows users to easily share files between devices on the same local network.
+A simple local file sharing application built with Python and Tkinter. It allows users to easily share files between devices on the same local network.
 
-## Features
 
-*   Share files over the local network.
-*   Simple and intuitive graphical user interface.
-*   No internet connection required.
+## ✨ Features
 
-## Requirements
+- 🚀 Share files over the **local network**
+- 🖼️ Simple and **intuitive graphical user interface**
+- 📡 **No internet** connection required
 
-*   Python 3.6 or higher
-*   Tkinter (usually included with Python)
 
-## Installation
+## ⚙️ Requirements
 
-1.  Clone or download the repository.
-2.  Navigate to the project directory in your terminal.
+- 🐍 Python 3.6 or higher
+- 🧰 Tkinter (usually included with Python)
+
+
+## 📦 Installation
+
+1. 📥 Clone or download the repository
+2. 💻 Navigate to the project directory in your terminal:
 
     ```bash
     cd /path/to/your/project
     ```
 
-3.  Run the main script:
+3. ▶️ Run the main script:
 
     ```bash
     python main.py
     ```
 
-## Usage
+## 🧑‍💻 Usage
 
-1.  Run the application using the installation steps above.
-2.  The application window will open.
-3.  Follow the on-screen instructions to select files to share or receive files from other devices on your network.
+1. Launch the app as shown above
+2. The GUI window will appear
+3. 📁 Use the interface to **select files to send** or **receive files** from other devices on the same network
 
-## Project Structure
-
-```
-
-## Project Versions
+## 🗂️ Project Versions
 
 This project includes two main versions:
 
-1.  **Non-MVC Version (`1st-NON/`)**: A simple implementation where all logic is contained within a single file.
-2.  **MVC Version (`2th-MVC/`)**: A version structured using the Model-View-Controller (MVC) architecture, offering clearer code organization and easier maintenance and extension.
+1. 🧾 **Non-MVC Version** (`1st-NON/`)  
+   > A straightforward implementation where all logic is in a single file
 
-## Project Structure
+2. 🧱 **MVC Version** (`2th-MVC/`)  
+   > A more structured version using the **Model-View-Controller** design for better organization and maintainability
 
-```
+
+## 📁 Project Structure
+
 .
 ├── 1st-NON/
 │   ├── main.py
 │   └── uploads/
 ├── 2th-MVC/
-│   ├── app_controller.py
-│   ├── app_view.py
+│   ├── app\_controller.py
+│   ├── app\_view\.py
 │   ├── config.py
-│   ├── file_model.py
-│   ├── http_handler.py
-│   ├── ip_utils.py
+│   ├── file\_model.py
+│   ├── http\_handler.py
+│   ├── ip\_utils.py
 │   ├── main.py
 │   ├── styles.py
 │   └── uploads/
 ├── README.md
-└── README_zh.md
-```
+└── README\_zh.md
 
-## Contributing
+## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a pull request or open an issue.
+Feel free to **fork** this repo and submit **pull requests**!  
+Found a bug or have suggestions? Open an **issue** and let's make this better together 💡
 
-## License
 
-This project is licensed under the MIT License - see the LICENSE file for details. (Note: LICENSE file is not included in this example structure, add if applicable)
+## 📄 License
 
-```
+This project is licensed under the **MIT License**.  
+See the `LICENSE` file for full details. *(Note: Please add the LICENSE file if not already included)*
 
-## Contributing
-
-Feel free to fork the repository and submit pull requests.
